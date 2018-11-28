@@ -24,5 +24,20 @@ public class aufgabe1
                 System.err.println("Falsche Eingabe."); //gibt fehlermeldung in der konsole aus
         }
 
+
+        //Aufgabe 4
+        Person larissa = new Person(); //hier erstelle ich eine neue Instanz Person eine bestimmte Person bzw. setze werte für eine neue Person
+        larissa.name = "Larissa"; //ich gehe mit . in meine Instanz Person und gebe den Variablen in deser Klasse meine werte
+        larissa.alter = 19;
+        larissa.printPerson();//hier führe ich die Klasse person aus; mit den neu gesetzten werten
+
+
+
+
+
+
+
     }
+
+
 }
