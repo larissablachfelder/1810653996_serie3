@@ -11,8 +11,9 @@ public class Vehicle //hier wird die Instanz vehicle erzeugt
         System.out.println("Das Fahrzeug besitzt " + doors + " Türen.");
     }
 
-    public String vehicleColor(String color)//methode gibt string zurück und wird erst im Aufruf ausgeführt
+    public String vehicleColor()//methode gibt color zurück, der deklariert wurde und wird erst im Aufruf ausgeführt
     {
+
         return color;//color wird zurückgegeben
     }
 

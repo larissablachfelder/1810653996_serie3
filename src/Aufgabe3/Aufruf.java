@@ -10,7 +10,7 @@ public class Aufruf //hier findet der Aufruf der Instanz Vehicle statt
         myFirstObject.doors = 5;
         myFirstObject.ps = 200;
 
-        System.out.println("Die Farbe ist: " + myFirstObject.vehicleColor(myFirstObject.color)); //hier wird die Methode der Farbe ausgeführt und auf der Konsole ausgegeben
+        System.out.println("Die Farbe ist: " + myFirstObject.vehicleColor()); //hier wird die Methode der Farbe ausgeführt und auf der Konsole ausgegeben
         myFirstObject.countDoors(); //hier wird die methode der Türen aufgerufen
 
         //das attribut ps wird zwar deklariert und ein wert zugewiesen, aber nicht ausgeführt oder ausgegeben
